@@ -9,6 +9,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 // Import Bootstrap JS
 import "bootstrap";
+// Import popperjs et JS bootstrap
+import "@popperjs/core/dist/umd/popper.min.js";
+import "bootstrap/dist/js/bootstrap.min.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

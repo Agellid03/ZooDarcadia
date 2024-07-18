@@ -1,0 +1,19 @@
+/* Réinitialisation des marges et paddings pour tous les éléments */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Réinitialisation des marges et paddings du body et html */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Assurez-vous que le header n'ajoute pas d'espace */
+header {
+  margin: 0;
+  padding: 0;
+}

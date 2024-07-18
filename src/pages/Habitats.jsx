@@ -1,7 +1,7 @@
 import React from "react";
 
 const Habitats = () => {
-  return <h1>Habitats </h1>;
+  return <p>Habitats</p>;
 };
 
 export default Habitats;

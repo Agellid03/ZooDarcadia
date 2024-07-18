@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto:wght@400;700&display=swap");
+
+/* Déclarez les variables après l'importation pour être sûr que les polices sont disponibles */
+:root {
+  --primary-color: #6096ba;
+  --secondary-color: #bbd686;
+  --dark: #140c03;
+  --headline: "Playfair Display", serif;
+  --headline-semiBold: "Playfair Display SemiBold", serif; /* Cette ligne est un ajout pour semi-bold */
+  --subtitle: "Raleway", sans-serif;
+  --text-content: "Roboto", sans-serif;
+}

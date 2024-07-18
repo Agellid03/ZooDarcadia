@@ -11,9 +11,3 @@ html {
   margin: 0;
   padding: 0;
 }
-
-/* Assurez-vous que le header n'ajoute pas d'espace */
-header {
-  margin: 0;
-  padding: 0;
-}

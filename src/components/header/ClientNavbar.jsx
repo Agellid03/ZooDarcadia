@@ -8,7 +8,7 @@ import {
   NavbarToggler,
   NavItem,
 } from "reactstrap";
-import "../../styles/clientNavbar.css";
+import "../header/clientNavbar.css";
 
 const ClientNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);

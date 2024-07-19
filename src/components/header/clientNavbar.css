@@ -1,0 +1,15 @@
+.container_navbar {
+  background-color: var(--primary-color);
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-brand,
+.nav-link {
+  font-family: var(--headline);
+  color: beige !important;
+}
+
+.content {
+  padding-top: 70px;
+}

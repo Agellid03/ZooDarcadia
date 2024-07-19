@@ -6,6 +6,7 @@
 :root {
   --primary-color: #6096ba;
   --secondary-color: #bbd686;
+  --secondary-color-darker: #617d2a;
   --dark: #140c03;
   --headline: "Playfair Display", serif;
   --headline-semiBold: "Playfair Display SemiBold", serif; /* Cette ligne est un ajout pour semi-bold */

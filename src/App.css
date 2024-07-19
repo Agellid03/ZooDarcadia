@@ -25,3 +25,15 @@ html {
 main {
   flex: 1;
 }
+
+h1 {
+  font-family: var(--headline);
+}
+
+h2 {
+  font-family: var(--subtitle);
+}
+
+p {
+  font-family: var(--text-content);
+}

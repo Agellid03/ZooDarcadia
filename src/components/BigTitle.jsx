@@ -7,7 +7,7 @@ const BigTitle = ({ title, subtitle, imageUrl, showButton }) => {
     <div className="big_title" style={{ backgroundImage: `url(${imageUrl})` }}>
       <div className="overlay">
         <h1 className="title">{title}</h1>
-        <h2 className="subtitle">{subtitle}</h2>
+
         {showButton && (
           <Link to="/habitats" className="custom_btn_link">
             Nos Habitats

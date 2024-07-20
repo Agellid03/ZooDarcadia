@@ -31,6 +31,12 @@ h1 {
 }
 
 h2 {
+  font-family: var(--headline-semiBold);
+}
+
+h3,
+h4,
+h5 {
   font-family: var(--subtitle);
 }
 

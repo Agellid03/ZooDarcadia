@@ -1,0 +1,33 @@
+/* servicesSection.css */
+.services_section {
+  padding: 20px;
+  background-color: var(--dark);
+}
+
+.service-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.service-card {
+  background-color: var(--primary-color);
+  border: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.service-card-title {
+  font-family: var(--subtitle);
+}
+
+.service-card-text {
+  color: var(--secondary-color);
+}

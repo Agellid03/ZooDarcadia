@@ -1,0 +1,39 @@
+/* habitatsSection.css */
+.habitats_section {
+  padding: 20px;
+  margin: 0;
+}
+
+.habitat-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.habitat-card {
+  border: none;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.habitat-card:hover {
+  transform: scale(1.05);
+}
+
+.habitat-card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.habitat-card-title {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: var(--subtitle);
+  font-size: 1.2rem;
+  text-align: center;
+}

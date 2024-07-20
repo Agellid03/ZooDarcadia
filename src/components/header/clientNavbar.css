@@ -2,12 +2,13 @@
   background-color: var(--primary-color);
   width: 100%;
   z-index: 1000;
+  margin: 0;
 }
 
 .nav-brand,
 .nav-link {
   font-family: var(--headline);
-  color: beige !important;
+  color: white !important;
 }
 
 .content {

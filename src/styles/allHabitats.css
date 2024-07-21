@@ -3,6 +3,7 @@
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .habitat_link {
@@ -12,6 +13,7 @@
 
 .habitat_card:hover {
   transform: scale(1.05);
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
 }
 
 .habitat_card_img {
@@ -22,6 +24,7 @@
 
 .habitat_card_title {
   font-family: var(--subtitle);
+  font-size: 1.2rem;
   color: white !important;
   position: absolute;
   bottom: 0;

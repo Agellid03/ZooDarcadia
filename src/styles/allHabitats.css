@@ -1,0 +1,32 @@
+.habitat_card {
+  border: none;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.habitat_link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.habitat_card:hover {
+  transform: scale(1.05);
+}
+
+.habitat_card_img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.habitat_card_title {
+  font-family: var(--subtitle);
+  color: white !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}

@@ -29,17 +29,17 @@ const AllHabitats = () => {
             <Col key={index} md="3" sm="6" className="mb-4">
               <Link
                 to={`/habitats/${habitat.name.toLowerCase()}`}
-                className="habitat-link"
+                className="habitat_link"
               >
-                <Card className="h-100 habitat-card">
+                <Card className="h-100 habitat_card">
                   <CardImg
                     top
                     width="100%"
                     src={habitat.imageUrl}
                     alt={habitat.name}
-                    className="habitat-card-img"
+                    className="habitat_card_img"
                   />
-                  <CardTitle className="habitat-card-title">
+                  <CardTitle className="habitat_card_title">
                     {habitat.name}
                   </CardTitle>
                 </Card>

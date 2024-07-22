@@ -1,17 +1,23 @@
 {
-  "name": "zoodarcadia",
+ "name": "zoodarcadia",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.3.3",
-    "bootstrap-icons": "^1.11.3",
-    "emailjs-com": "^3.2.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.24.1",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "zoodarcadia",
+      "version": "0.1.0",
+      "dependencies": {
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "bootstrap": "^5.3.3",
+        "bootstrap-icons": "^1.11.3",
+        "emailjs-com": "^3.2.0",
+        "firebase": "^10.12.4",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^6.24.1"
     "react-scripts": "5.0.1",
     "reactstrap": "^9.2.2",
     "styled-components": "^6.1.11",

@@ -5,6 +5,7 @@ import Header from "../components/header/Header";
 import AllHabitats from "../pages/AllHabitats";
 import AllServices from "../pages/AllServices";
 import Contacts from "../pages/Contacts";
+import DetailHabitat from "../pages/DetailHabitats";
 import Home from "../pages/Home";
 
 const AppRouter = () => {
@@ -16,6 +17,7 @@ const AppRouter = () => {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<AllServices />} />
           <Route path="/habitats" element={<AllHabitats />} />
+          <Route path="/habitats/:name" element={<DetailHabitat />} />
           <Route path="/contact" element={<Contacts />} />
         </Routes>
       </div>

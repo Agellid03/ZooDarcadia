@@ -13,42 +13,42 @@ const AllHabitats = () => {
       const habitatData = [
         {
           name: "Savane",
-          imageUrl: "gs://zooarcadia-7c3cb.appspot.com/Savane.jpeg",
+          imageUrl: "gs://zooarcadia-1f4ea.appspot.com/Savane.jpeg",
           link: "/savane",
         },
         {
           name: "Forêt",
-          imageUrl: "gs://zooarcadia-7c3cb.appspot.com/Foret.jpeg",
+          imageUrl: "gs://zooarcadia-1f4ea.appspot.com/Foret.jpeg",
           link: "/foret",
         },
         {
           name: "Volière",
-          imageUrl: "gs://zooarcadia-7c3cb.appspot.com/Voliere.jpeg",
+          imageUrl: "gs://zooarcadia-1f4ea.appspot.com/Voliere.jpeg",
           link: "/voliere",
         },
         {
           name: "Aquarium",
-          imageUrl: "gs://zooarcadia-7c3cb.appspot.com/Aquarium.jpeg",
+          imageUrl: "gs://zooarcadia-1f4ea.appspot.com/Aquarium.jpeg",
           link: "/aquarium",
         },
         {
           name: "Ferme",
-          imageUrl: "gs://zooarcadia-7c3cb.appspot.com/Ferme.jpeg",
+          imageUrl: "gs://zooarcadia-1f4ea.appspot.com/Ferme.jpeg",
           link: "/ferme",
         },
         {
           name: "Jungle",
-          imageUrl: "gs://zooarcadia-7c3cb.appspot.com/Jungle.jpeg",
+          imageUrl: "gs://zooarcadia-1f4ea.appspot.com/Jungle.jpeg",
           link: "/jungle",
         },
         {
           name: "Désert",
-          imageUrl: "gs://zooarcadia-7c3cb.appspot.com/Desert.jpeg",
+          imageUrl: "gs://zooarcadia-1f4ea.appspot.com/Desert.jpeg",
           link: "/desert",
         },
         {
           name: "Montagne",
-          imageUrl: "gs://zooarcadia-7c3cb.appspot.com/Montagne.jpeg",
+          imageUrl: "gs://zooarcadia-1f4ea.appspot.com/Montagne.jpeg",
           link: "/montagne",
         },
       ];

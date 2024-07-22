@@ -4,24 +4,25 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
-// TODO: Add SDKs for Firebase products that you want to use
+
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDv2ybCDCEVrdevXzj98cHz49l1d4mUb_k",
-  authDomain: "zooarcadia-7c3cb.firebaseapp.com",
-  projectId: "zooarcadia-7c3cb",
-  storageBucket: "zooarcadia-7c3cb.appspot.com",
-  messagingSenderId: "670259634641",
-  appId: "1:670259634641:web:30719162ebdeed52eb00f0",
-  measurementId: "G-CJGDX1D9Y2",
+  apiKey: "AIzaSyBY2uqjeYzv98G5P46ia8cI0qgumNUDyjk",
+  authDomain: "zooarcadia-1f4ea.firebaseapp.com",
+  projectId: "zooarcadia-1f4ea",
+  storageBucket: "zooarcadia-1f4ea.appspot.com",
+  messagingSenderId: "35500701720",
+  appId: "1:35500701720:web:eb6982a6b3b9233b896b6d",
+  measurementId: "G-QMRXWGZ4MY",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
 // Initialize Firestore and Auth
 const db = getFirestore(app);
 const auth = getAuth(app);
